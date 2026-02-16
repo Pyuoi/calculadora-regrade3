@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>Regra de Três</title>
+</head>
+<body>
+    <main>
+        <div class="conteiner">
+            <h1>Regra de Três</h1>
+            <div class="input-main">
+                <div class="inputs">
+                    <input type="number" placeholder="A" id="inputA">
+                    <i class="bi bi-arrow-right-square"></i>
+                    <input type="number" placeholder="B" id="inputB">
+                </div>
+                <div class="inputs">
+                    <input type="number" placeholder="C" id="inputC">
+                    <i class="bi bi-arrow-right-square"></i>
+                    <input type="number" placeholder="D" disabled style="border: solid #4848e6 2px;" id="inputD">
+                </div>
+            </div>
+            <h2>Modos</h2>
+            <div class="mode">
+                <button class="select sel" id="btn-diret">Diretamente (padrão)</button>
+                <button class="select" id="btn-invers">Inversamente</button>
+                
+            </div>
+            <button class="submit" id="calc-btn">Calcular</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

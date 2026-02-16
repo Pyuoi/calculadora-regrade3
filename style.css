@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    display: flex;
+    background-image: linear-gradient(to left, rgb(34, 108, 121),rgb(255, 255, 255));
+    max-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteiner {
+    background-color: white;
+    width: 450px;
+    height: auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.conteiner h1 {
+    margin: 20px 0px 30px 0px;
+    font-size: 35px;
+    font-weight: 400;
+
+    letter-spacing: 5px;
+    
+}
+
+
+.input-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+i {
+    font-size: 25px;
+}
+
+.inputs input {
+    background-color: rgb(233, 233, 233);
+    height: 30px;
+    border-radius: 5px;
+    border: solid darkgray 1px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 275;
+    outline: none;
+}
+
+.submit {
+    margin: 30px 0px 20px 0px;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #4848e6;
+    color: white;
+    width: 100%;
+}
+
+.conteiner h2 {
+    font-weight: 400;
+
+}
+
+
+.mode {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.select {
+    font-size: 17px;
+    border: none;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    border: solid #4848e6 2px;
+}
+
+.sel{
+    background-color: #4848e6;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
