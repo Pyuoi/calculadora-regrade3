@@ -1,7 +1,9 @@
 Rule of Three Interactive Calculator
 Overview
 
-    This is a web-based tool designed to solve direct and inverse proportion problems. The application features a responsive interface and real-time validation to ensure mathematical accuracy and a smooth user experience.
+    This is a web-based tool designed to solve direct and inverse proportion problems. The application features a 
+    
+    responsive interface and real-time validation to ensure mathematical accuracy and a smooth user experience.
 
 Features
 
